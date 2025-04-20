@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Neogym</title>
+  <title>Strive Gym</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -26,6 +26,66 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    .trainer_section .box {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+    .trainer_section .img-box {
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 5px solid #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .trainer_section .img-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .trainer_section .img-box:hover img {
+      transform: scale(1.05);
+    }
+    .trainer_section .name {
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    .trainer_section .name h5 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #333;
+    }
+    .trainer_section .social_box {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .trainer_section .social_box a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: #f8f9fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+    .trainer_section .social_box a:hover {
+      background: #007bff;
+      transform: translateY(-3px);
+    }
+    .trainer_section .social_box img {
+      width: 18px;
+      height: 18px;
+    }
+  </style>
 </head>
 
 <body>
@@ -36,7 +96,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Neogym
+              Strive Gym
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,6 +115,9 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="trainer.html"> trainers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="plans.html"> Plans</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html"> Contact Us</a>
@@ -87,10 +150,10 @@
                       Training
                     </h2>
                     <h1>
-                      Neogym
+                      Strive Gym
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                      Welcome to Strive Gym, Delhi's premier fitness destination. Our state-of-the-art facility offers cutting-edge equipment, expert trainers, and a motivating environment to help you achieve your fitness goals. Join us and transform your life through fitness excellence.
                     </p>
                     <div class="">
                       <a href="">
@@ -114,10 +177,10 @@
                       Training
                     </h2>
                     <h1>
-                      Neogym
+                      Strive Gym
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                      Experience the perfect blend of modern fitness technology and personalized training programs. Our dedicated team of certified trainers will guide you through your fitness journey, helping you build strength, endurance, and confidence.
                     </p>
                     <div class="">
                       <a href="">
@@ -141,10 +204,10 @@
                       Training
                     </h2>
                     <h1>
-                      Neogym
+                      Strive Gym
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                      Join our vibrant fitness community where every workout brings you closer to your goals. With flexible membership options, group classes, and personal training sessions, we provide everything you need to maintain a healthy lifestyle.
                     </p>
                     <div class="">
                       <a href="">
@@ -168,10 +231,10 @@
                       Training
                     </h2>
                     <h1>
-                      Neogym
+                      Strive Gym
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                      We provide top-of-the-line fitness equipment from leading manufacturers, regularly maintained to ensure safe and effective workouts. Our machines cater to all fitness levels and exercise preferences.
                     </p>
                     <div class="">
                       <a href="">
@@ -195,10 +258,91 @@
                       Training
                     </h2>
                     <h1>
-                      Neogym
+                      Strive Gym
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                      Our certified nutritionists create personalized diet plans that complement your fitness goals. Whether you're looking to build muscle, lose weight, or maintain a healthy lifestyle, we provide expert guidance and support.
+                    </p>
+                    <div class="">
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="col-lg-10 col-md-11 mx-auto">
+                <div class="detail-box">
+                  <div>
+                    <h3>
+                      Fitness
+                    </h3>
+                    <h2>
+                      Training
+                    </h2>
+                    <h1>
+                      Strive Gym
+                    </h1>
+                    <p>
+                      Our comprehensive diet plans are tailored to your specific needs and goals. We focus on balanced nutrition, portion control, and sustainable eating habits to help you achieve long-term success.
+                    </p>
+                    <div class="">
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="col-lg-10 col-md-11 mx-auto">
+                <div class="detail-box">
+                  <div>
+                    <h3>
+                      Fitness
+                    </h3>
+                    <h2>
+                      Training
+                    </h2>
+                    <h1>
+                      Strive Gym
+                    </h1>
+                    <p>
+                      Our specialized sports training programs are designed for athletes and fitness enthusiasts. We offer sport-specific training, agility drills, and performance enhancement techniques to help you excel in your chosen sport.
+                    </p>
+                    <div class="">
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="col-lg-10 col-md-11 mx-auto">
+                <div class="detail-box">
+                  <div>
+                    <h3>
+                      Fitness
+                    </h3>
+                    <h2>
+                      Training
+                    </h2>
+                    <h1>
+                      Strive Gym
+                    </h1>
+                    <p>
+                      At Strive Gym, we believe in a holistic approach to fitness that nurtures both mind and body. Our expert trainers and state-of-the-art facilities create the perfect environment for your fitness journey. We offer personalized training programs, group classes, and nutritional guidance to help you achieve your goals. Join our community and experience the transformative power of fitness in a supportive and motivating atmosphere.
                     </p>
                     <div class="">
                       <a href="">
@@ -217,6 +361,9 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
         </ol>
       </div>
     </section>
@@ -246,7 +393,7 @@
                   QUALITY EQUIPMENT
                 </h5>
                 <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  Our gym features premium fitness equipment from world-renowned brands. Each machine is regularly maintained and sanitized to ensure your safety and optimal performance during workouts.
                 </p>
               </div>
             </div>
@@ -261,7 +408,7 @@
                   NUTRITION
                 </h5>
                 <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  Our certified nutritionists provide personalized meal plans and dietary guidance. We help you understand proper nutrition, portion control, and healthy eating habits to complement your fitness journey.
                 </p>
               </div>
             </div>
@@ -276,7 +423,7 @@
                   HEALTHY DIET PLAN
                 </h5>
                 <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  We offer customized diet plans tailored to your specific goals, whether it's weight loss, muscle gain, or overall wellness. Our approach focuses on sustainable, healthy eating habits for long-term success.
                 </p>
               </div>
             </div>
@@ -291,7 +438,7 @@
                   SPORT TRAINING
                 </h5>
                 <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  Our specialized sports training programs are designed for athletes and fitness enthusiasts. We provide sport-specific training, agility drills, and performance enhancement techniques to help you excel in your chosen sport.
                 </p>
               </div>
             </div>
@@ -308,7 +455,6 @@
 
   <section class="heathy_section layout_padding">
     <div class="container">
-
       <div class="row">
         <div class="col-md-12 mx-auto">
           <div class="detail-box">
@@ -316,7 +462,7 @@
               HEALTHY MIND, HEALTHY BODY
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              At Strive Gym, we believe in a holistic approach to fitness that nurtures both mind and body. Our expert trainers and state-of-the-art facilities create the perfect environment for your fitness journey. We offer personalized training programs, group classes, and nutritional guidance to help you achieve your goals. Join our community and experience the transformative power of fitness in a supportive and motivating atmosphere.
             </p>
             <div class="btn-box">
               <a href="">
@@ -326,7 +472,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -346,11 +491,11 @@
           <div class="box">
             <div class="name">
               <h5>
-                Smirth Jon
+                Rajesh Kumar
               </h5>
             </div>
             <div class="img-box">
-              <img src="images/t1.jpg" alt="">
+              <img src="images/ti1.png" alt="Rajesh Kumar - Personal Trainer">
             </div>
             <div class="social_box">
               <a href="">
@@ -369,11 +514,11 @@
           <div class="box">
             <div class="name">
               <h5>
-                Jean Doe
+                Priya Sharma
               </h5>
             </div>
             <div class="img-box">
-              <img src="images/t2.jpg" alt="">
+              <img src="images/ti2.png" alt="Priya Sharma - Yoga Expert">
             </div>
             <div class="social_box">
               <a href="">
@@ -392,11 +537,11 @@
           <div class="box">
             <div class="name">
               <h5>
-                Alex Den
+                Arjun Singh
               </h5>
             </div>
             <div class="img-box">
-              <img src="images/t3.jpg" alt="">
+              <img src="images/ti3.png" alt="Arjun Singh - Strength Coach">
             </div>
             <div class="social_box">
               <a href="">
@@ -465,14 +610,15 @@
   <section class="info_section layout_padding2">
     <div class="container">
       <div class="info_items">
-        <a href="">
+        <a href="https://maps.app.goo.gl/wksMPZmoSptz9uTr9" target="_blank">
           <div class="item ">
             <div class="img-box box-1">
               <img src="" alt="">
             </div>
             <div class="detail-box">
               <p>
-                Location
+                Sector 15, Dwarka
+                New Delhi, Delhi 110078
               </p>
             </div>
           </div>
@@ -510,8 +656,8 @@
   <!-- footer section -->
   <footer class="container-fluid footer_section">
     <p>
-      &copy; 2020 All Rights Reserved. Design by
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; 2025 All Rights Reserved. Design by
+      Pro Web Makers
     </p>
   </footer>
   <!-- footer section -->
